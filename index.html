@@ -9,9 +9,6 @@
 </head>
 <body>
  
-<h1>Example with JavaScript inside {{ }}</h1>
- 
-<p>The 'message' text from the Vue instance is put together with another text and a JavaScript expression. The JavaScript expression creates a random integer between 1 and 6.</p>
  <h1>Personal Profile Web page</h1>
 <div class="container">
   <header>
@@ -67,7 +64,10 @@
    
     </footer>
 </div>
-   
+    
+<h1>Example with JavaScript inside {{ }}</h1>
+ 
+<p>The 'message' text from the Vue instance is put together with another text and a JavaScript expression. The JavaScript expression creates a random integer between 1 and 6.</p>
 <div id="app">
   {{ message }} <br>
   {{'Random number: ' + Math.ceil(Math.random()*6) }}
